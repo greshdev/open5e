@@ -23,10 +23,10 @@
       <h3 class="flex items-center">
         {{ subrace.name }}
         <source-tag
-          v-show="race.document__slug"
+          v-show="subrace.document__slug"
           class="ml-4"
-          :title="race.document__title"
-          :text="race.document__slug"
+          :title="subrace.document__title"
+          :text="subrace.document__slug"
         />
       </h3>
       <md-viewer :header-level="2" :text="subrace.desc" />
